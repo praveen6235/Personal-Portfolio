@@ -24,7 +24,7 @@ function Hero() {
         <div className="row align-items-center g-5">
           
           {/* Left Column: Content */}
-          <div ref={leftRef} className="col-lg-6 text-center text-lg-start" style={revealSlideStyle(leftVisible, 'left')}>
+          <div ref={leftRef} className="col-lg-6 text-center text-lg-start order-2 order-lg-1" style={revealSlideStyle(leftVisible, 'left')}>
              <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', fontWeight: 800, color: 'white', marginBottom: '1rem', lineHeight: 1.1 }}>
               Hi, I'm <span className="accent">Bollam Praveen</span>
             </h1>
@@ -60,7 +60,7 @@ function Hero() {
           </div>
 
           {/* Right Column: Profile Image */}
-          <div ref={rightRef} className="col-lg-5 d-none d-lg-flex justify-content-end" style={revealSlideStyle(rightVisible, 'right', 0.2)}>
+          <div ref={rightRef} className="col-lg-5 d-flex justify-content-center justify-content-lg-end order-1 order-lg-2 mb-5 mb-lg-0" style={revealSlideStyle(rightVisible, 'right', 0.2)}>
             <div className="position-relative" style={{ width: '350px', height: '350px' }}>
               <img
                 src={Image}
