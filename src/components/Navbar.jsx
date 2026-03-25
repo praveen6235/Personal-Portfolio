@@ -21,7 +21,7 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="d-none d-md-flex m-0 p-0 list-unstyled gap-4 align-items-center">
-          {['Home', 'About', 'Skills', 'Projects', 'Certificates', 'Resume', 'Contact'].map((item) => (
+          {['Home', 'About', 'Skills', 'Education', 'Projects', 'Certificates', 'Resume', 'Contact'].map((item) => (
             <li key={item}>
               <a href={`#${item.toLowerCase()}`} className="nav-link-minimal">{item}</a>
             </li>
@@ -48,7 +48,7 @@ function Navbar() {
         style={{ background: 'rgba(10, 10, 26, 0.97)', borderBottom: '1px solid rgba(124,58,237,0.2)', zIndex: 1029 }}
       >
         <ul className="m-0 p-3 list-unstyled text-center d-flex flex-column gap-2">
-          {['Home', 'About', 'Skills', 'Projects', 'Certificates', 'Resume', 'Contact'].map((item) => (
+          {['Home', 'About', 'Skills', 'Education', 'Projects', 'Certificates', 'Resume', 'Contact'].map((item) => (
             <li key={item}>
               <a href={`#${item.toLowerCase()}`} className="nav-link-minimal d-block py-2" onClick={() => setOpen(false)}>{item}</a>
             </li>
