@@ -10,11 +10,11 @@ import Hackathon from '../assest/Hack.pdf'
 function Certificates() {
   const certificates = [
     {
-      title: "DSA (Data Structure & Algo)",
+      title: "DSA (Data Structure & Algorithm)",
       issuer: "Neo colab",
       year: "2024",
       description: "Comprehensive course covering DSA fundamentals, algorithm design, and problem-solving techniques.",
-      skills: ["Arrays", "Trees", "Sorting", "Dynamic Programming"],
+      skills: ["Arrays", "Trees", "Sorting", "Dynamic Programming", "Linked Lists"],
       link: DSA
     },
     {
