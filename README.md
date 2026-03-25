@@ -1,16 +1,82 @@
-# React + Vite
+# 🌐 Praveen's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This portfolio showcases my projects, skills, and experience as a **Data Science Engineering student**.
 
-Currently, two official plugins are available:
+🔗 Live Website: https://praveen6235.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm **Praveen Bollam**, a passionate Data Science student with a strong interest in:
 
-## Expanding the ESLint configuration
+- Data Analysis & Visualization 📊
+- Web Development 🌐
+- Problem Solving & DSA 🧠
+- Building real-world projects 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I enjoy creating user-friendly applications and exploring new technologies.
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### ⚙️ Tools & Platforms
+- Git & GitHub
+- Vercel (Deployment)
+- VS Code
+
+---
+
+## 📂 Featured Projects
+
+### 🔹 API Explorer
+- A web-based tool to explore APIs interactively  
+- Helps users understand endpoints and responses  
+- Built using modern UI concepts  
+
+### 🔹 FixIt (Problem Solving Platform)
+- A platform to solve coding problems  
+- Designed for practice and learning  
+
+### 🔹 Fitness App
+- Tracks workouts and calories  
+- Includes smart calorie calculator  
+- User-friendly interface with real-time data  
+
+---
+
+## ✨ Features of Portfolio
+
+- Responsive Design 📱
+- Clean UI/UX 🎨
+- Smooth Navigation 🔄
+- Project Showcase Section 📁
+- About & Contact Sections 📬
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: praveenbollam9550@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/bollam-praveen/
+- 🐙 GitHub: https://github.com/praveen6235
+
+---
+
+## 🚀 Deployment
+
+This portfolio is deployed using **Vercel**.
+
+To run locally:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+open index.html
